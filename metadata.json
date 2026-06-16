@@ -1,0 +1,6 @@
+{
+  "name": "AI 코칭 강사 소개 - 김기용",
+  "description": "SUDO 소프트 대표이자 한국AI서비스학회 교수인 김기용 강사님의 AI 코칭 과정 및 포트폴리오를 안내하는 프리미엄 프로필 사이트입니다. 가상 AI 아바타 챗봇을 통한 실시간 상담 기능과 코칭 과정 신청 내역 관리 시스템을 탑재하였습니다.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
