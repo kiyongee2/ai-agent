@@ -1,8 +1,8 @@
 import { motion } from "motion/react";
 import { Mail, Briefcase, GraduationCap, FileCheck, Info, Sparkles } from "lucide-react";
+import avatarUrl from "../assets/images/giyong_kim.png";
 
 export default function Profile() {
-  const avatarUrl = "/src/assets/images/instructor_profile_avatar_1781580708363.jpg";
 
   const currentPositions = [
     "현) SUDO 소프트 대표",

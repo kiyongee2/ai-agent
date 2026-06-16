@@ -1,13 +1,12 @@
 import { motion } from "motion/react";
 import { Sparkles, ArrowRight, AppWindow, Cpu, Award } from "lucide-react";
+import bannerUrl from "../assets/images/ai_coaching_banner_1781579699499.jpg";
 
 interface HeroProps {
   onNavigate: (section: string) => void;
 }
 
 export default function Hero({ onNavigate }: HeroProps) {
-  // Use generated network banner
-  const bannerUrl = "/src/assets/images/ai_coaching_banner_1781579699499.jpg";
 
   return (
     <section id="hero" className="relative min-h-[90vh] flex items-center pt-16 overflow-hidden bg-slate-50">

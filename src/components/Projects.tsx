@@ -1,6 +1,9 @@
 import { motion } from "motion/react";
 import { AppWindow, Layers, Globe, CheckCircle2, ChevronRight, Smartphone } from "lucide-react";
 import { ProjectItem } from "../types";
+import kimbapImg from "../assets/images/kimbap_app_1781579735250.jpg";
+import iroImg from "../assets/images/iro_news_1781579752832.jpg";
+import portfolioImg from "../assets/images/portfolio_web_1781579770477.jpg";
 
 export default function Projects() {
   const projects: ProjectItem[] = [
@@ -9,7 +12,7 @@ export default function Projects() {
       title: "김밥 주문 시스템 (Nirvana Soft)",
       subtitle: "외국인을 위한 다국어 주문 시스템 개발",
       description: "외국인 관광객이 모바일이나 소형 기기로 한식을 쉽고 명료하게 탐독하고 주문할 수 있도록 한 스마트 키오스크 오더 시스템입니다.",
-      imageUrl: "/src/assets/images/kimbap_app_1781579735250.jpg",
+      imageUrl: kimbapImg,
       role: "총괄 기획 및 아키텍처 설계",
       techStack: ["React Native", "Tailwind CSS", "i18next", "NodeJS"],
       features: [
@@ -23,7 +26,7 @@ export default function Projects() {
       title: "AI 뉴스룸 [이로뉴스]",
       subtitle: "생성형 AI 및 웹 자문 및 뉴스 플랫폼 구축",
       description: "글로벌 정세, 실시간 증시, 주요 경제 지표 등을 지능형 생성형 AI로 핵심 요약하여 독자에게 신속한 맥락을 파악시켜주는 미디어 테크 서비스입니다.",
-      imageUrl: "/src/assets/images/iro_news_1781579752832.jpg",
+      imageUrl: iroImg,
       role: "생성형 AI 모델 커스텀 및 웹 기획 자문",
       techStack: ["React Web", "Gemini API", "Tailwind CSS", "Python Engine"],
       features: [
@@ -37,7 +40,7 @@ export default function Projects() {
       title: "SU-DO 포트폴리오",
       subtitle: "빅데이터-AI 엔지니어 반응형 포트폴리오 가이드",
       description: "인공지능 및 빅데이터 핵심 인재들의 실무 성과물과 정체성을 세련된 모던 다크모드로 담은 포트폴리오 사이트 템플릿 및 강의 지도 결과물입니다.",
-      imageUrl: "/src/assets/images/portfolio_web_1781579770477.jpg",
+      imageUrl: portfolioImg,
       role: "포트폴리오 설계 자문, 마이너 피드백 및 프로덕션 강의",
       techStack: ["HTML5", "CSS3 Canvas", "JavaScript ES6", "Responsive Layout"],
       features: [
